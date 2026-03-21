@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-    // ========== 1. 命令行参数检查 ==========
     if (argc != 3) {  // 需3个参数：程序名、控制参数、文件名
         printf("用法：%s [-c|-w] 输入文件名\n", argv[0]);
         return 1;  // 非0返回值表示程序异常退出
